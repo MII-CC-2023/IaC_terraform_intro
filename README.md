@@ -134,6 +134,18 @@ En el siguiente ejemplo usaremos AWS:
 ### Asignando el proveedor
 
 ```
+# Terraform 0.13 and later
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 3.0"
+    }
+  }
+}
+
+# Authentication and Configuration of the AWS Provider
+
 provider "aws" {
   region     = "us-east-1"
   
