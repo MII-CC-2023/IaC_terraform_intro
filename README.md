@@ -7,7 +7,7 @@ Desde la página de downloads de terraform (https://www.terraform.io/downloads.h
 (descargaremos aquí la versión para Linux 64 bits)
 
 ```
-$ wget https://releases.hashicorp.com/terraform/1.1.7/terraform_1.1.7_linux_amd64.zip
+$ wget https://releases.hashicorp.com/terraform/1.4.2/terraform_1.4.2_linux_amd64.zip
 
 ``` 
 
@@ -16,7 +16,7 @@ Descomprime el fichero usando unzip (si lo necesitas instala el paquete unzip):
 ```
 $ sudo apt install unzip
 
-$ unzip terraform_1.1.7_linux_amd64.zip
+$ unzip terraform_1.4.2_linux_amd64.zip
 ```
 
 Mueve el fichero terraform ha una carpeta incluida en el PATH, por ejemplo a /usr/local/bin/:
@@ -29,7 +29,8 @@ Prueba la instalación con:
 
 ```
 $ terraform -version
-Terraform v1.1.7
+Terraform v1.4.2
+on linux_386
 ```
 
 ## Comandos Terraform
